@@ -47,10 +47,10 @@ URxvt.allow_bold:           true
 ! blissfully ignorant in those matters. In the words of Brinkhusrt,
 ! they "steal sheep".
 !
-URxvt*font:           xft:monospace:style=Book:pixelsize=13
-URxvt*italicFont:     xft:monospace:style=Oblique:pixelsize=13
-URxvt*boldFont:       xft:monospace:style=Bold:pixelsize=13
-URxvt*boldItalicFont: xft:monospace:style=BoldOblique:pixelsize=13
+URxvt*font:           xft:Droid Sans Mono:style=Book:pixelsize=12
+URxvt*italicFont:     xft:Droid Sans Mono:style=Oblique:pixelsize=12
+URxvt*boldFont:       xft:Droid Sans Mono:style=Bold:pixelsize=12
+URxvt*boldItalicFont: xft:Droid Sans Mono:style=BoldOblique:pixelsize=12
 !-----------------------------------------------------------------------
 !! Fix font space
 !-----------------------------------------------------------------------
@@ -80,6 +80,13 @@ URxvt.keysym.M-s:           perl:keyboard-select:search
 URxvt.cursorBlink:          true
 URxvt.cursorColor:          11
 URxvt.cursorUnderline:      false
+!-----------------------------------------------------------------------
+!! Keys
+!-----------------------------------------------------------------------
+URxvt.keysym.Control-Up:    \033[1;5A
+URxvt.keysym.Control-Down:  \033[1;5B
+URxvt.keysym.Control-Left:  \033[1;5D
+URxvt.keysym.Control-Right: \033[1;5C
 !-----------------------------------------------------------------------
 !! Pointer
 !-----------------------------------------------------------------------

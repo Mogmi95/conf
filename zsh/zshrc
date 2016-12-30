@@ -95,11 +95,10 @@ export MGT_KEY="ae0060f9454bb6e705b4b834225bba9d"
 export PATH="$PATH:/home/mbidon/Prog/netatmo/apps/Linux/flasher"
 
 # aliases
-alias gvim='gvim --remote-tab-silent'
 source /usr/local/bin/virtualenvwrapper.sh
 
 # Custom autosuggest
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=1'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=2'
 
 # Tmux configuration
 # Not necessary with urxvt

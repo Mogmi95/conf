@@ -24,7 +24,7 @@ bindsym $mod+Return exec rxvt-unicode
 bindsym $mod+Shift+a kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+bindsym $mod+d exec dmenu_run -i -p " > " -nf "#93a1a1" -nb "#002b36"  -sb "#859900" -sf "#002b36"
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -60,7 +60,7 @@ bindsym $mod+f fullscreen
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
 bindsym $mod+z layout tabbed
-bindsym $mod+e layout toggle split
+bindsym $mod+t layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -109,7 +109,10 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 bindsym $mod+Shift+i scrot /tmp/screenshot.png
 
 # Lockscreen
-bindsym $mod+l exec i3lock -c 000000
+bindsym $mod+l exec i3lock -c 002b36
+
+# Thunar
+bindsym $mod+e exec thunar
 
 # Dropdown style scratchpad
 for_window [instance="dropdown_urxvt"] move to scratchpad, border 10pixel
@@ -157,8 +160,9 @@ bindsym $mod+r mode "resize"
 #client.background       #ffffff
 
 # Solarized
-client.focused          #002b36 #586e75 #fdf6e3 #268bd2
-client.focused_inactive #002b36 #073642 #839496 #073642
+#client.focused          #002b36 #b58900 #fdf6e3 #b58900
+client.focused          #002b36 #859900 #fdf6e3 #859900
+client.focused_inactive #002b36 #002b36 #839496 #073642
 client.unfocused        #002b36 #073642 #839496 #073642
 client.urgent           #002b36 #dc322f #fdf6e3 #002b36
 
@@ -175,7 +179,7 @@ bar {
             background #002b36
                 statusline #839496
                 separator  #586e75
-                focused_workspace  #b58900 #b58900 #002b36
+                focused_workspace  #859900 #859900 #002b36
                 active_workspace   #586e75 #586e75 #002b36
                 inactive_workspace #073642 #002b36 #839496
                 urgent_workspace #dc322f #dc322f #fdf6e3
@@ -195,7 +199,7 @@ exec --no-startup-id dunst -config ~/.dunstrc &
 exec --no-startup-id redshift &
 
 # background
-exec --no-startup-id feh --bg-scale ~/Pictures/3B3.png
+exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper.png
 
 # Volumeicon
 exec --no-startup-id volumeicon &
