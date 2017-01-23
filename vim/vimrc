@@ -57,7 +57,7 @@ Bundle 'Townk/vim-autoclose'
 Bundle 'michaeljsmith/vim-indent-object'
 " Python mode (indentation, doc, refactor, lints, code checking, motion and
 " operators, highlighting, run and ipdb breakpoints)
-Bundle 'klen/python-mode'
+" Bundle 'klen/python-mode'
 " CSV
 Bundle 'chrisbra/csv.vim'
 " Solarized vim scheme
@@ -269,7 +269,6 @@ let g:tabman_toggle = 'tl'
 let g:tabman_focus  = 'tf'
 
 " Gui configuration
-set guifont=Droid\ Sans\ Mono
 set background=dark
 if has("gui_running")
 	set guioptions-=m   " no menu bar
@@ -280,7 +279,7 @@ if has("gui_running")
 	set hlsearch        " highlight search matches
     colorscheme solarized
 else " terminal configuration
-	set t_Co=256                " Use 8 colors
+	set t_Co=256        " Use 8 colors
     colorscheme solarized
 endif
 
@@ -298,13 +297,6 @@ let g:AutoClosePumvisible = {"ENTER": "\<C-Y>", "ESC": "\<ESC>"}
 " to use fancy symbols for powerline, uncomment the following line and use a
 " patched font (more info on the README.rst)
 " let g:Powerline_symbols = 'fancy'
-
-" Open buffers list
-nmap <silent> <unique> <SPACE><SPACE> :BufExplorer<CR>
-
-if has('gui_running')
-    set guifont=ProggyCleanTT\ 13
-endif
 
 " Ignore spaces while in diff mode
 if &diff

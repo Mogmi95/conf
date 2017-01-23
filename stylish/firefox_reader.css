@@ -1,0 +1,26 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url-prefix("about:reader") {
+
+  body {
+    color: #93a1a1a1            !important;
+    background-color: #002b36   !important;
+  }
+  
+  a {
+    color: #859900              !important;
+    text-decoration: none       !important;
+  }
+  
+  #container
+  {
+    width:              50%     !important;
+    max-width:        700px    !important;
+    -moz-column-count:   1      !important;
+  }
+  
+  .toolbar {
+    color: #eee8d5              !important;
+    background-color: #002b36   !important;
+  }
+}
