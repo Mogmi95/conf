@@ -67,32 +67,10 @@ export PATH=$PATH:"/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-export PATH="$PATH:/home/mbidon/.rvm/bin/"
-export PATH="$PATH:/home/mbidon/Tools/adt-bundle-linux-x86_64-20140624/eclipse"
-export PATH="$PATH:/home/mbidon/Tools/adt-bundle-linux-x86_64-20140624/android-ndk-r10/"
-export PATH="$PATH:/home/mbidon/Tools/adt-bundle-linux-x86_64-20140624/sdk/platform-tools/"
-export PATH="$PATH:/home/mbidon/Tools/adt-bundle-linux-x86_64-20140624/sdk/tools"
-export PATH="$PATH:/home/mbidon/Tools/adt-bundle-linux-x86_64-20140624/sdk/build-tools/android-4.4/"
-export PATH="$PATH:/home/mbidon/Tools/adt-bundle-linux-x86_64-20140624/sdk/build-tools/19.1.0"
-export PATH="$PATH:/home/mbidon/Downloads/p4v-2014.2.951414/bin"
-export PATH="$PATH:/home/mbidon/Tools/"
-export PATH="$PATH:/home/mbidon/Tools/android-studio/bin"
-#export NETATMO_APPS_ANDROID='/home/mbidon/Prog/netatmo/apps/Android/eclipse/workspace'
-export ANDROID_HOME_NDK='/home/mbidon/Tools/adt-bundle-linux-x86_64-20140624/android-ndk-r10/'
-export ANDROID_HOME='/home/mbidon/Tools/adt-bundle-linux-x86_64-20140624/sdk'
-export WS='/home/mbidon/Prog/git/android/workspace/WeatherStationClient'
-export TS='/home/mbidon/Prog/git/android/workspace/NetatmoThermostat'
-export CM='/home/mbidon/Prog/git/android/workspace/Camera'
-
 export PAGER=most
 export EDITOR=vim
 
-export NETATMO_ANDROID_PASSFILE='/home/mbidon/pwd2.txt'
-
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
-export MGT_KEY="ae0060f9454bb6e705b4b834225bba9d"
-export PATH="$PATH:/home/mbidon/Prog/netatmo/apps/Linux/flasher"
 
 # aliases
 source /usr/local/bin/virtualenvwrapper.sh
