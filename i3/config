@@ -160,8 +160,8 @@ bindsym $mod+r mode "resize"
 #client.background       #ffffff
 
 # Solarized
-#client.focused         #002b36 #b58900 #fdf6e3 #b58900
-client.focused          #002b36 #859900 #fdf6e3 #859900
+client.focused         #002b36 #b58900 #fdf6e3 #b58900
+#client.focused          #002b36 #859900 #fdf6e3 #859900
 client.focused_inactive #002b36 #002b36 #839496 #073642
 client.unfocused        #002b36 #002b36 #839496 #073642
 client.urgent           #002b36 #dc322f #fdf6e3 #002b36
@@ -179,7 +179,7 @@ bar {
             background #002b36
                 statusline #839496
                 separator  #586e75
-                focused_workspace  #859900 #859900 #002b36
+                focused_workspace  #b58900 #b58900 #002b36
                 active_workspace   #586e75 #586e75 #002b36
                 inactive_workspace #073642 #002b36 #839496
                 urgent_workspace #dc322f #dc322f #fdf6e3
