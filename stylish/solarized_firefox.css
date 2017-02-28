@@ -1,0 +1,15 @@
+/********************************/
+/*   Light Blue Blank New Tab   */
+/********************************/
+/*      By -[DailyNate]-        */
+/********************************/
+
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document url("about:blank"), url("about:newtab") {
+
+* {
+
+background-color:#002b36;
+
+}
+}

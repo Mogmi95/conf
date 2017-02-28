@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+################################
+# Shows current date
+#
+# @param {String} format: The format of the date
+# @return {Date}: Current date
+################################
+
+date +"%H:%M:%S"
