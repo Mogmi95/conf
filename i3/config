@@ -125,8 +125,10 @@ bindsym $mod+e exec thunar
 for_window [instance="dropdown_urxvt"] move to scratchpad, border 1pixel
 for_window [instance="dropdown_urxvt"] focus
 bindsym F12 [instance="dropdown_urxvt"] scratchpad show
-bindsym F11 exec rxvt-unicode -name "dropdown_urxvt" -geometry 220x42
-for_window [instance="urxvt_scratchpad"] floating enable; move scratchpad; scratchpad show; move position 865px 512px; move scratchpad
+bindsym F11 exec rxvt-unicode -name "dropdown_urxvt" -geometry 269x40
+for_window [instance="urxvt_scratchpad"] floating enable;
+for_window [instance="urxvt_scratchpad"] move absolute position 0 px 0 px;
+for_window [instance="urxvt_scratchpad"] sticky enable;
 
 # no windows titlebar
 for_window [class="^.*"] border pixel 4
@@ -197,7 +199,7 @@ bar {
 bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+
 bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 5%-
 
-exec --no-startup-id /home/mbidon/Tools/i3-alternating-layout/alternating_layouts.py &
+# exec --no-startup-id /home/mbidon/Tools/i3-alternating-layout/alternating_layouts.py &
 
 # enable Guake
 for_window [title="Guake!"] floating enable

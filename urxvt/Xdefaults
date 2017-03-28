@@ -20,7 +20,7 @@ URxvt.shading:              5
 URxvt.urgentOnBell:         false /* default: true */
 URxvt.visualBell:           false /* default: true */
 URxvt.loginShell:           true
-URxvt.saveLines:            50
+URxvt.saveLines:            5000
 URxvt.internalBorder:       15
 URxvt.lineSpace:            0
 !-----------------------------------------------------------------------
@@ -47,10 +47,10 @@ URxvt.allow_bold:           true
 ! blissfully ignorant in those matters. In the words of Brinkhusrt,
 ! they "steal sheep".
 !
-URxvt*font:           xft:Droid Sans Mono:style=Book:pixelsize=12
-URxvt*italicFont:     xft:Droid Sans Mono:style=Oblique:pixelsize=12
-URxvt*boldFont:       xft:Droid Sans Mono:style=Bold:pixelsize=12
-URxvt*boldItalicFont: xft:Droid Sans Mono:style=BoldOblique:pixelsize=12
+URxvt*font:           xft:Droid Sans Mono:style=Book:pixelsize=11
+URxvt*italicFont:     xft:Droid Sans Mono:style=Oblique:pixelsize=11
+URxvt*boldFont:       xft:Droid Sans Mono:style=Bold:pixelsize=11
+URxvt*boldItalicFont: xft:Droid Sans Mono:style=BoldOblique:pixelsize=11
 !-----------------------------------------------------------------------
 !! Fix font space
 !-----------------------------------------------------------------------
